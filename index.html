@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Creative Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Creative Calculator</h1>
+    <div class="mode">
+      <button id="numberMode">Tryb Liczb</button>
+      <button id="textMode">Tryb Tekstu</button>
+    </div>
+    <div class="calculator">
+      <input type="text" id="input1">
+      <input type="text" id="input2">
+      <div id="result">Wynik: </div>
+      <div id="numberButtons" class="button-group">
+        <!-- Klawisze do liczb -->
+        <button id="double">Podwój sumę</button>
+        <button id="square">Suma kwadratów</button>
+        <button id="add">Losowa Liczba</button>
+        <button id="subtract">Suma Cyfr</button>
+        <button id="multiply">Ciąg Fibonacciego</button>
+      </div>
+      <div id="textButtons" class="button-group">
+        <!-- Klawisze do tekstu -->
+        <button id="reverse">Usuń Spacje</button>
+        <button id="uppercase">Losowy Przykład</button>
+        <button id="lowercase">Odwróć Wyrazy</button>
+        <button id="length">Anagram</button>
+        <button id="concat">Zmień Literę</button>
+      </div>
+      <!-- Klawisz do zmiany tła -->
+      <button id="changeBackground">Zmień Tło</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
