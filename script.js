@@ -15,6 +15,11 @@ document.getElementById("numberMode").addEventListener("click", () => {
     const num2 = parseFloat(input2.value);
     result.textContent = "Wynik: " + (num1 * 2 + num2 * 2);
   });
+  document.getElementById("square").addEventListener("click", () => {
+    const num1 = parseFloat(input1.value);
+    const num2 = parseFloat(input2.value);
+    result.textContent = "Wynik: " + (num1 * num1 + num2 * num2);
+  });
 });
 
 document.getElementById("textMode").addEventListener("click", () => {
