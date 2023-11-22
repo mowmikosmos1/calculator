@@ -20,6 +20,19 @@ document.getElementById("numberMode").addEventListener("click", () => {
     const num2 = parseFloat(input2.value);
     result.textContent = "Wynik: " + (num1 * num1 + num2 * num2);
   });
+  
+
+  document.getElementById("add").addEventListener("click", () => {
+    const num1 = parseFloat(input1.value=Math.random()*100);
+    const num2 = parseFloat(input2.value=Math.random()*100);
+    result.textContent = "Wynik: " + (num1+num2);
+  });
+
+  document.getElementById("subtract").addEventListener("click", () => {
+    const num1 = parseFloat(input1.value);
+    const num2 = parseFloat(input2.value);
+    result.textContent = "Wynik: " + (num1+num2);
+  });
 });
 
 document.getElementById("textMode").addEventListener("click", () => {
